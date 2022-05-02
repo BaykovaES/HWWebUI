@@ -1,4 +1,4 @@
-package HWLesson3;
+package org.example.HWLesson3;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
