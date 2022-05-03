@@ -1,20 +1,19 @@
 package org.example.Hw5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.example.Hw4.HwTriangleTest;
+
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 
 import java.util.concurrent.TimeUnit;
-import java.util.function.BooleanSupplier;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
+
 
 public class LitResTest {
     static WebDriver driver;
