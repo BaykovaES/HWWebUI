@@ -34,7 +34,6 @@ public class AddBook {
         webElement3.click();
         WebElement webElement4 = driver.findElement(By.cssSelector(".art-buttons__basket"));
         webElement4.click();
-
         //driver.quit();
     }
 }

@@ -35,7 +35,7 @@ public class Authorization {
         WebElement webElement5 = driver.findElement(By.xpath("//div[@class='AuthorizationPopup-module__input']"));
         webElement5.click();
         webElement5.sendKeys("7169766");
-        WebElement webElement6 = driver.findElement(By.xpath("button[@class='button-0-2-1 button-d28-0-2-33 AuthorizationPopup-module__button Button-module__primary_orange']"));
+        WebElement webElement6 = driver.findElement(By.xpath("//button[@class='button-0-2-1 button-d28-0-2-33 AuthorizationPopup-module__button Button-module__primary_orange']"));
         webElement6.click();
         WebElement webElement7 = driver.findElement(By.xpath("//a[@class='Profile-module__profileLink']"));
         webElement7.click();
