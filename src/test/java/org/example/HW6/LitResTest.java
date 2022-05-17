@@ -93,10 +93,10 @@ public class LitResTest extends AbstractTest{
             MyBookPage myBookPage = new MyBookPage(getDriver());
             myBookPage
                     .clickMyBasket()
-                    .clickClearBasket()
+                    .clickClearBasket();
 
 
-        String webElement8 = driver.findElement(By.xpath("//*[@id='my-books-list__basket']/a/span[2]")).getText();
+
         Assertions.assertNull(getDriver()
                 .findElement(By.xpath("//*[@id='my-books-list__basket']/div/span[2]"))
                 .getText());
